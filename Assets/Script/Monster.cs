@@ -10,11 +10,40 @@ public class Monster : MonoBehaviour
     public int live = 500;
     public bool infloot = false;
 
-    private int score = 0;
+    private float score = 0;
     private AudioClip aud1;
     private AudioClip aud2;
     private AudioSource As;
     private Rigidbody2D rig;
     private Animator ani;
+    /// <summary>
+    /// 跳躍
+    /// </summary>
+    void Jump()
+    {
 
+    }
+    /// <summary>
+    /// 攻擊
+    /// </summary>
+    void attack()
+    {
+
+    }
+    /// <summary>
+    /// 受到傷害
+    /// </summary>
+    /// <param name="damage"></param>
+    void heat(float damage)
+    {
+
+    }
+    void dead()
+    {
+
+    }
+    void Addscore(float score)
+    {
+
+    }
 }
